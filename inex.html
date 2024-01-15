@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Form_Validation</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+</head>
+<body>
+    <form action="" class="form">
+        <span class="material-symbols-outlined fa-paper-plane">
+            send
+            </span>
+        <div class="input-group">
+            <label for="">Full Name</label>
+            <input type="text" placeholder="Enter Your Name" id="name" >
+            <span id="name-error"></span>
+            
+        </div>
+        <div class="input-group">
+            <label for="">Phone no.</label>
+            <input type="tel" placeholder="123 456 7890" id="phone">
+            <span id="phone-error"></span>
+        </div>
+        <div class="input-group">
+            <label for="">Email id.</label>
+            <input type="email" placeholder="Enter Email" id="email">
+            <span id="email-error"></span>
+        </div>
+        <div class="input-group">
+            <label for="">Your Message</label>
+            <textarea name="text" id="text" cols="44" rows="5" placeholder="Enter Your Message"></textarea>
+            <span class="msgerror" id="msg-error"></span>
+            
+        </div>
+        <div class="btn"><button class="btn1">Submit</button></div>
+        <span class="main-error"></span>
+    </form>
+    
+    <script src="app.js"></script>
+</body>
+</html>
