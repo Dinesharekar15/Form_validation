@@ -27,7 +27,7 @@ function validatename(){
         return false;
 
     }
-    nameerror.innerHTML='valid';
+    nameerror.innerHTML="<p>valid</p>";
     return true;
 
 }
@@ -46,7 +46,7 @@ function validatephone(){
         return false;
 
     }
-    phoneerror.innerHTML="valid";
+    phoneerror.innerHTML="<p>valid</p>";
     return true;
 }
 
@@ -64,7 +64,7 @@ function validateemail(){
         return false;
 
     }
-    emailerror.innerHTML="valid";
+    emailerror.innerHTML="<p>valid</p>";
     return true;
 }
 
@@ -82,7 +82,7 @@ function validatemsg(){
         msgerror.innerHTML="Enter at least 20 words.";
         return false;
     }
-    msgerror.innerHTML="valid ";
+    msgerror.innerHTML="<p>valid</p> ";
     return true;
 }
 
@@ -92,7 +92,7 @@ submitbtn.addEventListener("click",function(event){
         event.preventDefault();
     }
     else{
-        mainerror.innerHTML='Form Submitted Successfully';
+        mainerror.innerHTML='<p>Form Submitted Successfully</p>';
     }
 })
 
