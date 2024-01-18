@@ -27,7 +27,7 @@ function validatename(){
         return false;
 
     }
-    nameerror.innerHTML="<p>valid</p>";
+    nameerror.innerHTML="<box-icon name='check-circle' type='solid' color='#26aa2c' ></box-icon>";
     return true;
 
 }
@@ -46,7 +46,7 @@ function validatephone(){
         return false;
 
     }
-    phoneerror.innerHTML="<p>valid</p>";
+    phoneerror.innerHTML="<box-icon name='check-circle' type='solid' color='#26aa2c' ></box-icon>";
     return true;
 }
 
@@ -64,7 +64,7 @@ function validateemail(){
         return false;
 
     }
-    emailerror.innerHTML="<p>valid</p>";
+    emailerror.innerHTML="<box-icon name='check-circle' type='solid' color='#26aa2c' ></box-icon>";
     return true;
 }
 
@@ -82,7 +82,7 @@ function validatemsg(){
         msgerror.innerHTML="Enter at least 20 words.";
         return false;
     }
-    msgerror.innerHTML="<p>valid</p> ";
+    msgerror.innerHTML="<box-icon name='check-circle' type='solid' color='#26aa2c' ></box-icon>";
     return true;
 }
 
